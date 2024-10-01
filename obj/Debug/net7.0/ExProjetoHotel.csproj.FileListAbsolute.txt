@@ -1,0 +1,14 @@
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\bin\Debug\net7.0\ExProjetoHotel.exe
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\bin\Debug\net7.0\ExProjetoHotel.deps.json
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\bin\Debug\net7.0\ExProjetoHotel.runtimeconfig.json
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\bin\Debug\net7.0\ExProjetoHotel.dll
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\bin\Debug\net7.0\ExProjetoHotel.pdb
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.AssemblyInfoInputs.cache
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.AssemblyInfo.cs
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.csproj.CoreCompileInputs.cache
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.dll
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\refint\ExProjetoHotel.dll
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.pdb
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.genruntimeconfig.cache
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ref\ExProjetoHotel.dll
