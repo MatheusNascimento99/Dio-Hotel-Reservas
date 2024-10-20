@@ -1,33 +1,45 @@
 ﻿using System.Linq;
 using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 using ExProjetoHotel.Models;
 
-Console.WriteLine("Informe o NOME do 1º hospede: ");
-string nomeHospede1 = Console.ReadLine();
-
-Console.WriteLine("Informe o SOBRENOME do 1º hospede: ");
-string sobrenomeHospede1 = Console.ReadLine();
-
-Pessoa hospede1 = new(nomeHospede1, sobrenomeHospede1);
-
-Console.WriteLine("Informe o NOME do 2º hospede: ");
-string nomeHospede2 = Console.ReadLine();
-Console.WriteLine("Informe o SOBRENOME do 2º hospede: ");
-string sobrenomeHospede2 = Console.ReadLine();
-
-Pessoa hospede2 = new(nomeHospede2, sobrenomeHospede2);
-
 List<Pessoa> familia = new();
+
+
+int opEscolha = 1;
+Console.WriteLine("Bem Vindo a hospedaria Taverna! ");
+Console.WriteLine("Informe seu nome completo:");
+string? hospedePrincipal = Console.ReadLine();
+Pessoa hospede1 = new(hospedePrincipal);
 familia.Add(hospede1);
-familia.Add(hospede2);
+
+
+while (opEscolha == 1)
+{
+    Console.WriteLine("Deseja adicionar mais hóspedes? Digite: [1]");
+    Console.WriteLine("Deseja proseguir? Digite: [2]");
+    opEscolha = Convert.ToInt32(Console.ReadLine());
+    if (opEscolha == 2)
+    {
+        break;
+    }
+    Console.WriteLine("Informe o nome completo do hóspede:");
+    string? hospedeSecundario = Console.ReadLine();
+    Pessoa hospede2 = new(hospedeSecundario);
+    familia.Add(hospede2);
+}
+
+
+Console.WriteLine($"LISTA DE HÓSPEDES CADASTRADOS");
+
+foreach (Pessoa hospede in familia)
+{
+    Console.WriteLine($"{hospede.Nome}");
+}
 
 Reserva reserva = new();
 
 reserva.CadastrarHospedes(familia);
-Console.WriteLine(
-    $" Cadastrado com sucesso os hóspedes: {familia[0].Nome} {familia[0].Sobrenome},"
-        + $" {familia[1].Nome} {familia[1].Sobrenome}  "
-);
 
 Console.WriteLine("SUÍTES DISPONÍVEiS:");
 Console.WriteLine(
@@ -78,16 +90,17 @@ Suite suiteEscolhida = null;
 if (escolhaDoCliente == 1)
 {
     reserva.CadastrarSuite(suite1, familia.Count);
-     suiteEscolhida = suite1;
+    suiteEscolhida = suite1;
 }
 else if (escolhaDoCliente == 2)
 {
     reserva.CadastrarSuite(suite2, familia.Count);
-     suiteEscolhida = suite2;
+    suiteEscolhida = suite2;
 }
-else {
+else
+{
     reserva.CadastrarSuite(suite3, familia.Count);
-     suiteEscolhida = suite3;
+    suiteEscolhida = suite3;
 }
 
 
@@ -102,3 +115,4 @@ Console.WriteLine($"Valor total a pagar: {reserva.CalcularValorDiaria(suiteEscol
 
 
 Console.ReadLine();
+

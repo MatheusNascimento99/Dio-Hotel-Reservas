@@ -19,7 +19,7 @@ namespace ExProjetoHotel.Models
             if (numPessoa > ReservaSuite.Capacidade)
             {
                 Console.WriteLine(
-                    $"Esta suite não acomoda {numPessoa}, favor escolher outra suíte."
+                    $"Esta suite não acomoda {numPessoa} pessoas, favor escolher outra suíte."
                 );
                 Environment.Exit(0);
             }

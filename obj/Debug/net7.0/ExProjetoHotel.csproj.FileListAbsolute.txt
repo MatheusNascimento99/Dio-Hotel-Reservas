@@ -12,3 +12,4 @@ C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net
 C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.pdb
 C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.genruntimeconfig.cache
 C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ref\ExProjetoHotel.dll
+C:\Users\ivan\source\repos\Developer\ExProjetoHotel\ExProjetoHotel\obj\Debug\net7.0\ExProjetoHotel.sourcelink.json

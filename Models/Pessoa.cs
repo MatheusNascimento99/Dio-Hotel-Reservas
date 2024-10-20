@@ -4,6 +4,7 @@ namespace ExProjetoHotel.Models
 {
     public class Pessoa
     {
+        
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
 
@@ -11,6 +12,12 @@ namespace ExProjetoHotel.Models
         {
             this.Nome = nome;
             this.Sobrenome = sobrenome;
+        }
+
+
+        public Pessoa(string name)
+        {
+            this.Nome = name;
         }
     }
 }
