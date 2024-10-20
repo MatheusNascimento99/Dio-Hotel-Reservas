@@ -1,0 +1,45 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs and database
+*.log
+logs/
+*.sqlite
+*.sqlite3
+
+# Publish outputs
+.publish/
+
+# Debug and crash reports
+*.dmp
+*.stackdump
+
+# User secrets
+secrets.json
+.env
+appsettings*.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Rider files
+.idea/
+*.sln.iml
